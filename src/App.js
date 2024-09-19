@@ -17,7 +17,7 @@ function App() {
         <div>
          <Navbar/>
          <Routes>
-            <Route  path="/addcollege"  element={<AddCollege/>}/>
+            <Route  path="/addcollege"  element={<p/>}/>
             <Route  path="/collectcollge" element={<ListColleges/>}/>
             <Route path="/updatecollege/:id" element={<UpdateCollege />} />
          </Routes>

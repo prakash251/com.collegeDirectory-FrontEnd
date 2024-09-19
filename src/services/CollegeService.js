@@ -61,4 +61,7 @@ class CollegeService {
     }
 }
 
-export default new CollegeService();
+const collegeServiceInstance = new CollegeService();
+
+
+export default collegeServiceInstance;
